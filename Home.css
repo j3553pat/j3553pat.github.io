@@ -1,0 +1,22 @@
+
+#p1 {
+    width: 50%;
+    background-color: rgb(191, 207, 221);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#p2 {
+    width: 50%;
+    background-color: rgb(191, 207, 221);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
