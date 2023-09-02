@@ -49,17 +49,20 @@
       <p class="display-6 text-center">
         Complete and submit this form if you would like to contact me.
       </p>
-      <form action="https://formsubmit.co/el/jehejo" method="POST" id="form" onsubmit="OnFormSubmit()">
+      <form 
+        action="https://formspree.io/f/maygjebr"
+        method="POST"
+        enctype="multipart/form-data">
         <div class="d-flex justify-content-center">
           <section class="input-group w-75">
-            <span class="input-group-text" required>First and last name</span>
+            <label class="input-group-text" required>First and last name</label>
             <input type="text" aria-label="name" name="name" class="form-control" />
           </section>
         </div>
         <br />
         <div class="d-flex justify-content-center">
         <section class="input-group mb-3 w-75">
-          <span class="input-group-text" id="inputGroup-sizing-default" required >Email</span>
+          <label class="input-group-text" id="inputGroup-sizing-default" required >Email</label>
           <input
             type="text"
             name="email"
@@ -85,7 +88,7 @@
       </div>
       <div class="d-flex justify-content-center">
         <section class="input-group mb-3 w-75">
-          <span class="input-group-text" id="inputGroup-sizing-default">Message</span>
+          <label class="input-group-text" id="inputGroup-sizing-default">Message</label>
           <input
             type="text"
             name="message"
